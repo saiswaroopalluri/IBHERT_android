@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/linearstaff"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<android.support.v7.widget.CardView
+
+    style="@style/CardView.Light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:id="@+id/staff"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/primary_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="DR.MARK REFUSS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+             />
+
+        <TextView
+            android:layout_below="@id/primary_text1"
+            android:id="@+id/sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:text="PROJECT DIRECTOR (PI)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+            />
+
+        <TextView
+            android:layout_below="@+id/sub_text"
+            android:id="@+id/supporting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Associate Professor of Counseling
+Darden College of Education in the Department of Counseling and Human Services"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            />
+
+        <ImageView
+            android:id="@+id/media_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/supporting_text"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/staff_1"
+            app:srcCompat="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/primary_text1"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/ic_expand_less_black_36dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff2"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="DR. KAPREA F JOHNSON"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text2"
+                android:id="@+id/sub_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="CONSULTANT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text2"
+                android:id="@+id/supporting_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Associate Professor of Counseling
+Darden College of Education in the Department of Counseling and Human Services"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_2"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text2"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_less_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff3"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="DR. KIMBERLY ADAMS TUFTS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text3"
+                android:id="@+id/sub_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="IPE COORDINATOR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text3"
+                android:id="@+id/supporting_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Professor and Assistant Dean
+                College of Health Sciences"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_3"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text3"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff4"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="DR. GULSAH KEMER"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text4"
+                android:id="@+id/sub_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="SUPERVISION AND INTERNSHIP COORDINATOR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text4"
+                android:id="@+id/supporting_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Assistant Professor of Counseling
+Darden College of Education in the Department of Counseling and Human Services"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text4"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_4"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text4"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff5"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="DR. CHRISTIANNE FOWLER"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text5"
+                android:id="@+id/sub_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="GERIATRIC COORDINATOR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text5"
+                android:id="@+id/supporting_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Associate Professor of Nursing
+College of Health Sciences"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text5"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_5"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text5"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff6"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="DR. JEFFRY MOE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text6"
+                android:id="@+id/sub_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="IBHERT FALL SEMINAR COORDINATOR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text6"
+                android:id="@+id/supporting_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Associate Professor of Counseling
+Darden College of Education in the Department of Counseling and Human Services"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text6"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_6"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text6"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff7"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="MR. AJAY GUPTA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text7"
+                android:id="@+id/sub_text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="TECHNOLOGY COORDINATOR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text7"
+                android:id="@+id/supporting_text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Director of Computer Resources
+Department of Computer Sciences"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text7"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_7"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text7"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff8"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="DR. NOROU DIAWARA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text8"
+                android:id="@+id/sub_text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="DATA ANALYSIS COORDINATOR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text8"
+                android:id="@+id/supporting_text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Associate Professor of Mathematics and Statistics
+Department of Mathematics and Statistics"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text8"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_8"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text8"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/staff9"
+        tools:ignore="ContentDescription">
+
+        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/primary_text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="BETSY ZIMMERMAN"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@id/primary_text9"
+                android:id="@+id/sub_text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="COUNSELING GRADUATE STUDENT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorSecondaryTextDefaultMaterialLight"
+                />
+
+            <TextView
+                android:layout_below="@+id/sub_text9"
+                android:id="@+id/supporting_text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="8dp"
+                android:text="Counseling Graduate Student
+Darden College of Education in the Department of Counseling and Human Services"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+                />
+
+            <ImageView
+                android:id="@+id/media_image9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/supporting_text9"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/staff_9"
+                app:srcCompat="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/primary_text9"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ic_expand_more_black_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

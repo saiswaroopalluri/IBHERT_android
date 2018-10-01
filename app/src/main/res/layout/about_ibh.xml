@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/about_us"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/about_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:fontFamily="@font/alegreya_sc_bold_italic"
+            android:text=" What is Integrated Behavioral Health Care?"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/about_us_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/about_IBHERT_1_1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_1_1"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:longClickable="false"
+            android:maxHeight="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ibhertcycle"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/about_us_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+
+            android:lineSpacingExtra="4dp"
+            android:text="@string/about_IBHERT_1_2"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_1_2"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:longClickable="false"
+            android:maxHeight="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/setsrepresentation"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/about_us_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image2"
+
+            android:text="@string/about_IBHERT_1_3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_us_1_3"
+            android:fontFamily="@font/alegreya_sc_bold_italic"
+            android:text="Related terms and definitions"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutus_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt2"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/aboutus_2_1"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_2_1"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:longClickable="false"
+            android:maxHeight="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/termsanddefinations1"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aboutus_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image3"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/aboutus_2_2"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutus_2_2"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:longClickable="false"
+            android:maxHeight="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/termsanddefinations1"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image4"
+            android:fontFamily="@font/alegreya_sc_bold_italic"
+            android:text="Integrated Behavioral Health Care Model"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutus_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image4"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/aboutus_3_1"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutus_3_1"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:longClickable="false"
+            android:maxHeight="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/healthcaremodal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/aboutus_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image5"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/aboutus_3_2"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutus_3_2"
+            android:fontFamily="@font/alegreya_sc_bold_italic"
+            android:text="Web Resources"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutus_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt4"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/aboutus_4_1"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryTextDefaultMaterialLight"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Login and SignUp ScreenDesign Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="title_activity_login">IBHERT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="about_IBHERT_1_3">The term “behavioral health” describes the behavioral factors in chronic illness care, care of physical symptoms associated with stress rather than diseases, and health behaviors, as well as mental health and substance abuse conditions and diagnoses.</string>
+    <string name="about_IBHERT_1_2">The care a patient experiences as a result of a team of primary care and behavioral health clinicians, working together with patients and families, using a systematic and cost-effective approach to provide patient-centered care for a defined population.
+
+This care may address mental health and substance abuse conditions, health behaviors (including their contribution to chronic medical illnesses), life stressors and crises, stress-related physical symptoms, and ineffective patterns of health care utilization.</string>
+    <string name="about_IBHERT_1_1">In the broadest use of the term, “integrated behavioral health care” can describe any situation in which behavioral health and medical providers work together. The <i>IBHC Measures Atlas</i> describes integrated behavioral health care as care that specifically addresses the integration of behavioral health and primary care and is defined as follows:</string>
+    <string name="projects1_txt1">There is a significant need in the Hampton Roads service area for behavioral health providers from diverse backgrounds and who are prepared to:
+
+Provide quality culturally-intelligent services to vulnerable underserved populations (VUPS) across the lifespan
+Engage in interprofessional collaboration in integrated care settings.</string>
+    <string name="projects1_txt2">The purpose of this project is to increase the number of behavioral health providers who are adequately trained to provide quality, culturally-intelligent, behavioral health services in integrated care settings, with a particular focus on child and senior populations.
+
+Additionally, we will work to build students’ capacity to engage in interprofessional collaborations and to effectively use telehealth strategies to provide care.</string>
+    <string name="projects2_txt1">Overall project goals are to:
+Increase the number of behavioral health providers and clinical supervisors in Hampton Roads trained to provide quality and culturally-intelligent IBH services to VUPs across the lifespan, with a focus on child and senior populations;
+Build the capacity of the ODU Counseling program to provide training to graduate students and working behavioral health professionals in integrated care, telehealth approaches, and care of VUPs; and
+Increase the number of behavioral health providers from ethnic minority and underrepresented groups who are prepared for and interested in working with VUPS.
+    Students participating in the IBH program will be educated using the standard counseling curriculum however to supplement the training, IBH cohort students will be required to engage in the following:</string>
+<string name="projects2_txt2">1.Complete the IBH course offerings
+- COUN 695X Integrated Care for Children, Adolescents, and Transitional Aged Youth and
+
+- COUN 695Y Integrated Care for Senior Populations.
+
+Attend the Fall advanced topics seminar series on cultural intelligence, ethics and law, with a spotlight on population, economics, or technology.
+
+Complete a specialized IBH field placement, COUN 667/668</string>
+    <string name="projects3_txt1">There are many stakeholder benefits to joining the Integrative Behavioral Health Care community. By creating a website log-in, stakeholders will have exclusive access to:
+
+Up-to-date IBH grant happenings
+
+Papers and other research specific to integrated behavioral health care
+
+Our program blog, social media posts and resources
+
+Opportunities for continuing education
+</string>
+    <string name="projects3_txt2">Students will also find links to the Old Dominion University Counseling Program internship handbook, the IBH program handbook as well as upcoming events and IBH program activities. By creating a log-in account, community stakeholders and university personnel can use the IBH program website as a means to connect with other professionals and become a part of this specialized learning community.</string>
+
+
+<string name="aboutus_2_1">nterprofessional education (IPE): Health professionals from two or more fields teaching and learning from each other in a collaborative environment. The purpose of the collaborative learning experience is the development of knowledge and skills to enhance health professionals’ competency (Buring et al., 2009).
+Interprofessional collaboration (IPC): When multiple health workers from different professional backgrounds work together with patients, families, carers [sic], and communities to deliver the highest quality care. (WHO, 2010).
+Interdisciplinary collaboration: Two or more health care professionals, with their own skills and knowledge, working together to assist patients and their families to make health decisions (Canadian Association of Occupational Therapists, 2005). </string>
+
+
+<string name="aboutus_2_2">Holistic: care for the whole client; takes into consideration a patient’s physical, psychological, social and spiritual health.
+Allied health professionals: Health care professionals, other than those working in medicine and nursing. Examples include (but not limited to) mental health counselors, dietitians, health administration professionals, health educators, marriage and family therapists and pharmacy assistants (The Association of Schools of Allied Health Professions, 2017).
+Medical health professionals: Medical, and nursing professionals.
+Behavioral health professional: An individual who assists clients with behavioral issues, such as psychiatrists, psychologists, marriage and family counselors and mental health professionals (McGraw-Hill Concise Dictionary of Modern Medicine, 2002).
+Interprofessional team-based care: Care delivered by intentionally created, usually relatively small work groups in health care who are recognized by others as well as by themselves as having a collective identity and shared responsibility for a patient or group of patients (e.g., rapid response team, palliative care team, primary care team, and operating room team) (Interprofessional Education Collaborative Expert Panel, 2011). </string>
+
+    <string name="aboutus_3_1">The changing healthcare environment makes primary care settings a gateway for persons in need to seek and receive help for behavioral health issues. This requires integration of behavioral health care services into primary care settings and a sufficient supply of well-trained, competent behavioral health professionals.</string>
+<string name="aboutus_3_2">There are several innovative models that are being implemented nationally and globally. Many of the models depend on a workforce that is prepared and ready to perform from an interprofessional framework in integrated care settings. Strides in the area of interprofessional training over the last 15 years, highlight training models that focus on interprofessional education at the undergraduate and graduate level through shared coursework, projects, experiences, and training programs. It has been shown that students who have interprofessional experiences during the course of their training programs have less difficulty working in integrated care settings post-graduation.</string>
+
+    <string name="aboutus_4_1">For more information on Integrated Behavioral Health Care, please visit:
+1) National Institute of Mental Health: https://www.nimh.nih.gov/index.shtml
+2) SAMHSA-HRSA Center for Integrated Health Solution: https://www.integration.samhsa.gov/about-us/about-cihs
+3) Agency for Healthcare Research and Quality – The Academy: https://integrationacademy.ahrq.gov/</string>
+</resources>
